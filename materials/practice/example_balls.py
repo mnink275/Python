@@ -29,7 +29,7 @@ def main():
     canvas.pack(anchor='nw', fill=tk.BOTH)
     canvas.bind('<Button-1>', canvas_click_handler)
 
-    R = randint(20, 50)
+    R = randint(20, 40)
     x = randint(R, WIDTH - R)
     y = randint(R, HEIGHT - R)
     dx, dy = +5, +5
