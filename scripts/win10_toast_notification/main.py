@@ -9,3 +9,4 @@ toaster.show_toast("Сделай зарядку",
 
 with open('runtimes.txt', 'a+') as file:
     file.write(str(datetime.now()))
+    file.write('\n')
